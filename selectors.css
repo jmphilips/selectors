@@ -1,0 +1,50 @@
+header {
+	border: 2px dotted red;
+}
+
+header li {
+	display: inline;
+	margin: 0 2em;
+}
+
+.disabled {
+	color: gray;
+}
+
+a .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.blooz {
+	color: blue;
+}
+
+.reedz {
+	color: red;
+}
+
+.bloo-sib {
+	background-color: red; 
+}
+
+.red-sib {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 20%;
+}
+
+.promo {
+	color: gold;
+	font-weight: bolder;
+}
+
+footer > span > input {
+	height: 25px; 
+}
